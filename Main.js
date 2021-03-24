@@ -6,7 +6,7 @@ function result() {
   if (name === "") {
     alert('Please enter your name');
   }else if (name.length <= 2) {
-    alert('Ohree or more than three characters are allowed');
+    alert('Only three or more than three characters are allowed');
   }else if (!isNaN(name)) {
     alert('Only letters are allowed');
   }
